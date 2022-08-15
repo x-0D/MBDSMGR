@@ -11,6 +11,8 @@
         pkgs.replitPackages.jest
 
         pkgs.python2Full
+
+        pkgs.zip
     ];
     env = {
     PYTHON_LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [
